@@ -1,1 +1,2 @@
-# psychic-broccoli
+# Kubernetes Classroom
+## Resources
