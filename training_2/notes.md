@@ -17,9 +17,9 @@ Commands to your local Docker Daemon to build and manage Docker Images locally
 $ docker build --tag app:1.0 .
 ```
 
-### Run a Docker Image Locally
+### Run a Docker Image Locally (interactive mode, terminal output, and specify local machine port binding)
 ```
-$ docker run app:1.0
+$ docker run -it -p 8080:8080 app:1.0
 ```
 
 ### Send a Docker Image to the Docker Registry
